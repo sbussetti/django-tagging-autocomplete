@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 from setuptools import setup, find_packages
- 
+
 long_description = open('README.txt').read()
- 
+
 setup(
     name='django-tagging-autocomplete',
-    version='0.3.1',
+    version='0.3.2',
     description='Autocompletion for django-tagging',
     long_description=long_description,
     author='Ludwik Trammer',
@@ -24,4 +24,4 @@ setup(
     zip_safe=False,
     #package_data={},
     #test_suite='tagging_autocomplete.tests.runtests.runtests'
-) 
+)
